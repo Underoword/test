@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="708407b3-1125-43ad-8a4f-6b881b34a96d">
+  <producedTypes>
+    <selectionType typeId="cfde26aa-9bbe-428a-9f44-0d9238868337" valueTypeId="7b74b18d-d70b-4342-b475-01995066db97"/>
+    <listType typeId="db2030f1-c2d8-4e15-813d-9b20f3c17232" valueTypeId="cbd9be37-57d7-4125-926e-cfb1b7696e8d"/>
+    <managerType typeId="ac795bd3-7fc0-4735-b98e-984851d2f114" valueTypeId="a78fbcf4-cd31-4f91-88f0-49b7b96775fc"/>
+    <recordSetType typeId="d9987628-03ad-4102-906a-b707187a237c" valueTypeId="4848de82-1f35-43f0-9e5f-c1f6d0aea73b"/>
+    <recordKeyType typeId="3b09a3cb-c5bd-42e8-b5a4-f7ad0f64ceb4" valueTypeId="d67c82ee-f719-4e64-ba4c-b8efd64a5bdc"/>
+    <recordType typeId="332bae2e-1db3-4299-8db2-697b68c06698" valueTypeId="134763bc-1061-4841-b498-2f57f21ede95"/>
+    <recordManagerType typeId="8545b1e8-4447-4cf4-af11-615e376878d8" valueTypeId="5376e8f5-5574-4ec4-86bf-18f848a63e30"/>
+  </producedTypes>
+  <name>РегистрСведений1</name>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="76311e93-308b-4dc5-a450-8e444f646c6b">
+    <name>КодПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код поиска</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="422f2b67-a8f6-4b18-bf00-be61544ab5d0">
+    <name>объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
